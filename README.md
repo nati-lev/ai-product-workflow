@@ -1,5 +1,11 @@
 # 🤖 AI Product Workflow
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-appuct-workflow.streamlit.app/)
+
+🌐 **Live Demo:** [https://ai-appuct-workflow.streamlit.app/](https://ai-appuct-workflow.streamlit.app/)
+
+> **Try it now!** Explore the complete ML pipeline with interactive visualizations and model performance metrics.
+
 Complete end-to-end machine learning pipeline for customer churn prediction. This project demonstrates a production-ready ML workflow from raw data to deployed model.
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
