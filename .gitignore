@@ -1,0 +1,110 @@
+cat > .gitignore << 'ENDOFFILE'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Build and distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+*.bak
+*.swp
+
+# Raw data files only (we want to keep processed artifacts)
+data/raw/
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.xls
+
+# Keep artifacts for Streamlit Cloud deployment
+# (artifacts/ folder will be committed)
+
+# Keep processed data
+# (artifacts/ contains the processed files we need)
+
+# Model checkpoints that are too large
+# Uncomment if you have very large model files
+# *.h5
+# *.hdf5
+# models/*.pkl
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Documentation build
+docs/_build/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+ENDOFFILE
+
+echo "✅ Created .gitignore"
