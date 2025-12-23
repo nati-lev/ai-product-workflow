@@ -1,0 +1,118 @@
+{
+  "total_rows": 7043,
+  "total_columns": 21,
+  "columns": {
+    "customerID": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "gender": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "SeniorCitizen": {
+      "type": "int64",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "Partner": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "Dependents": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "tenure": {
+      "type": "int64",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "PhoneService": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "MultipleLines": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "InternetService": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "OnlineSecurity": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "OnlineBackup": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "DeviceProtection": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "TechSupport": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "StreamingTV": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "StreamingMovies": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "Contract": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "PaperlessBilling": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "PaymentMethod": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "MonthlyCharges": {
+      "type": "float64",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "TotalCharges": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    },
+    "Churn": {
+      "type": "object",
+      "missing_count": 0,
+      "missing_percentage": 0.0
+    }
+  },
+  "duplicates": 0,
+  "numeric_columns": [
+    "SeniorCitizen",
+    "tenure",
+    "MonthlyCharges"
+  ],
+  "summary": "Dataset has 7043 rows and 21 columns. No missing values found. No duplicate rows. Dataset has 3 numeric columns."
+}

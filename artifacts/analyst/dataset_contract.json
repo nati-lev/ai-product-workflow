@@ -1,0 +1,449 @@
+{
+  "schema_version": "1.0",
+  "dataset_name": "Telco Customer Churn",
+  "description": "Automatically generated data contract",
+  "created_at": "2025-12-23T15:24:25.647123",
+  "dimensions": {
+    "rows": {
+      "min": 5634,
+      "max": 8451,
+      "current": 7043
+    },
+    "columns": {
+      "count": 21,
+      "names": [
+        "customerid",
+        "gender",
+        "seniorcitizen",
+        "partner",
+        "dependents",
+        "tenure",
+        "phoneservice",
+        "multiplelines",
+        "internetservice",
+        "onlinesecurity",
+        "onlinebackup",
+        "deviceprotection",
+        "techsupport",
+        "streamingtv",
+        "streamingmovies",
+        "contract",
+        "paperlessbilling",
+        "paymentmethod",
+        "monthlycharges",
+        "totalcharges",
+        "churn"
+      ]
+    }
+  },
+  "columns": [
+    {
+      "name": "customerid",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 7043,
+        "most_common": "7590-VHVEG",
+        "most_common_count": 1
+      },
+      "allowed_values": null,
+      "note": "High cardinality - 7043 unique values"
+    },
+    {
+      "name": "gender",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 2,
+        "most_common": "Male",
+        "most_common_count": 3555
+      },
+      "allowed_values": [
+        "Female",
+        "Male"
+      ]
+    },
+    {
+      "name": "seniorcitizen",
+      "type": "int64",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "numeric",
+      "statistics": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "suggested_constraints": {
+        "min_value": 0.0,
+        "max_value": 0.0,
+        "outlier_lower_bound": 0.0,
+        "outlier_upper_bound": 0.0
+      }
+    },
+    {
+      "name": "partner",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 2,
+        "most_common": "No",
+        "most_common_count": 3641
+      },
+      "allowed_values": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "name": "dependents",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 2,
+        "most_common": "No",
+        "most_common_count": 4933
+      },
+      "allowed_values": [
+        "No",
+        "Yes"
+      ]
+    },
+    {
+      "name": "tenure",
+      "type": "int64",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "numeric",
+      "statistics": {
+        "min": 0.0,
+        "max": 72.0,
+        "mean": 32.37114865824223,
+        "median": 29.0,
+        "std": 24.55948102309446
+      },
+      "suggested_constraints": {
+        "min_value": 0.0,
+        "max_value": 72.0,
+        "outlier_lower_bound": -60.0,
+        "outlier_upper_bound": 124.0
+      }
+    },
+    {
+      "name": "phoneservice",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 2,
+        "most_common": "Yes",
+        "most_common_count": 6361
+      },
+      "allowed_values": [
+        "No",
+        "Yes"
+      ]
+    },
+    {
+      "name": "multiplelines",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 3,
+        "most_common": "No",
+        "most_common_count": 3390
+      },
+      "allowed_values": [
+        "No phone service",
+        "No",
+        "Yes"
+      ]
+    },
+    {
+      "name": "internetservice",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 3,
+        "most_common": "Fiber optic",
+        "most_common_count": 3096
+      },
+      "allowed_values": [
+        "DSL",
+        "Fiber optic",
+        "No"
+      ]
+    },
+    {
+      "name": "onlinesecurity",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 3,
+        "most_common": "No",
+        "most_common_count": 3498
+      },
+      "allowed_values": [
+        "No",
+        "Yes",
+        "No internet service"
+      ]
+    },
+    {
+      "name": "onlinebackup",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 3,
+        "most_common": "No",
+        "most_common_count": 3088
+      },
+      "allowed_values": [
+        "Yes",
+        "No",
+        "No internet service"
+      ]
+    },
+    {
+      "name": "deviceprotection",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 3,
+        "most_common": "No",
+        "most_common_count": 3095
+      },
+      "allowed_values": [
+        "No",
+        "Yes",
+        "No internet service"
+      ]
+    },
+    {
+      "name": "techsupport",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 3,
+        "most_common": "No",
+        "most_common_count": 3473
+      },
+      "allowed_values": [
+        "No",
+        "Yes",
+        "No internet service"
+      ]
+    },
+    {
+      "name": "streamingtv",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 3,
+        "most_common": "No",
+        "most_common_count": 2810
+      },
+      "allowed_values": [
+        "No",
+        "Yes",
+        "No internet service"
+      ]
+    },
+    {
+      "name": "streamingmovies",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 3,
+        "most_common": "No",
+        "most_common_count": 2785
+      },
+      "allowed_values": [
+        "No",
+        "Yes",
+        "No internet service"
+      ]
+    },
+    {
+      "name": "contract",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 3,
+        "most_common": "Month-to-month",
+        "most_common_count": 3875
+      },
+      "allowed_values": [
+        "Month-to-month",
+        "One year",
+        "Two year"
+      ]
+    },
+    {
+      "name": "paperlessbilling",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 2,
+        "most_common": "Yes",
+        "most_common_count": 4171
+      },
+      "allowed_values": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "name": "paymentmethod",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 4,
+        "most_common": "Electronic check",
+        "most_common_count": 2365
+      },
+      "allowed_values": [
+        "Electronic check",
+        "Mailed check",
+        "Bank transfer (automatic)",
+        "Credit card (automatic)"
+      ]
+    },
+    {
+      "name": "monthlycharges",
+      "type": "float64",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "numeric",
+      "statistics": {
+        "min": 18.25,
+        "max": 118.75,
+        "mean": 64.76169246059918,
+        "median": 70.35,
+        "std": 30.090047097678493
+      },
+      "suggested_constraints": {
+        "min_value": 18.25,
+        "max_value": 118.75,
+        "outlier_lower_bound": -46.02499999999999,
+        "outlier_upper_bound": 171.375
+      }
+    },
+    {
+      "name": "totalcharges",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 6531,
+        "most_common": "20.2",
+        "most_common_count": 11
+      },
+      "allowed_values": null,
+      "note": "High cardinality - 6531 unique values"
+    },
+    {
+      "name": "churn",
+      "type": "object",
+      "nullable": false,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "data_type": "categorical",
+      "statistics": {
+        "unique_count": 2,
+        "most_common": "No",
+        "most_common_count": 5174
+      },
+      "allowed_values": [
+        "No",
+        "Yes"
+      ]
+    }
+  ],
+  "data_quality": {
+    "completeness": 100.0,
+    "total_missing": 0,
+    "duplicate_rows": 0
+  },
+  "validation_rules": {
+    "required_columns": [
+      "customerid",
+      "gender",
+      "seniorcitizen",
+      "partner",
+      "dependents",
+      "tenure",
+      "phoneservice",
+      "multiplelines",
+      "internetservice",
+      "onlinesecurity",
+      "onlinebackup",
+      "deviceprotection",
+      "techsupport",
+      "streamingtv",
+      "streamingmovies",
+      "contract",
+      "paperlessbilling",
+      "paymentmethod",
+      "monthlycharges",
+      "totalcharges",
+      "churn"
+    ],
+    "no_duplicates": true,
+    "max_missing_percentage": 5.0
+  }
+}
