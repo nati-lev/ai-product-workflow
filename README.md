@@ -27,6 +27,26 @@ Complete end-to-end machine learning pipeline for customer churn prediction. Thi
 - [Contributing](#contributing)
 - [License](#license)
 
+## 📚 Complete Documentation
+
+- **[📖 Project Journey](PROJECT_JOURNEY.md)** - Comprehensive walkthrough of the entire development process (10 hours documented)
+  - Planning & setup
+  - 9 AI agents implementation
+  - All challenges & solutions
+  - Code examples & best practices
+  
+- **[🎨 Visual Infographic](PROJECT_INFOGRAPHIC.md)** - Quick visual overview
+  - Timeline & architecture
+  - Performance metrics
+  - Statistics & achievements
+  - Easy-to-share format
+
+- **[🤖 Model Card](artifacts/scientist/model_card.md)** - ML model documentation
+  - Technical specifications
+  - Performance metrics
+  - Limitations & ethics
+  - Deployment guidelines
+
 ## 🎯 Overview
 
 This project implements a complete ML pipeline with two main crews:
